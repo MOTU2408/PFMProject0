@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="sBeH4y" name="PFMProject0" projectType="audioplug" jucerVersion="5.4.7">
+  <MAINGROUP id="X6w8nx" name="PFMProject0">
+    <GROUP id="{34FAAC41-9810-4617-D2EB-0522A625F69A}" name="Source">
+      <FILE id="o9hg6w" name="PluginProcessor.cpp" compile="1" resource="0"
+            file="Source/PluginProcessor.cpp"/>
+      <FILE id="jb9ANl" name="PluginProcessor.h" compile="0" resource="0"
+            file="Source/PluginProcessor.h"/>
+      <FILE id="DKA3Ag" name="PluginEditor.cpp" compile="1" resource="0"
+            file="Source/PluginEditor.cpp"/>
+      <FILE id="HWIoRc" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
+    </GROUP>
+  </MAINGROUP>
+  <EXPORTFORMATS>
+    <XCODE_MAC targetFolder="Builds/MacOSX">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug"/>
+        <CONFIGURATION isDebug="0" name="Release"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../../../../../../Users/adampietrykowski/Programming/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../../../../Users/adampietrykowski/Programming/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../../../../Users/adampietrykowski/Programming/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../../../../../../Users/adampietrykowski/Programming/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../../../../Users/adampietrykowski/Programming/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../../../../../Users/adampietrykowski/Programming/JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../../../../../../Users/adampietrykowski/Programming/JUCE/modules"/>
+        <MODULEPATH id="juce_cryptography" path="../../../../../../Users/adampietrykowski/Programming/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../../../../Users/adampietrykowski/Programming/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../../../../../Users/adampietrykowski/Programming/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../../../../Users/adampietrykowski/Programming/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../../../../Users/adampietrykowski/Programming/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../../../../Users/adampietrykowski/Programming/JUCE/modules"/>
+        <MODULEPATH id="juce_opengl" path="../../../../../../Users/adampietrykowski/Programming/JUCE/modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_plugin_client" showAllCode="1" useLocalCopy="0"
+            useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_cryptography" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_opengl" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+  <LIVE_SETTINGS>
+    <OSX/>
+  </LIVE_SETTINGS>
+  <JUCEOPTIONS JUCE_VST3_CAN_REPLACE_VST2="0" JUCE_STRICT_REFCOUNTEDPOINTER="1"/>
+</JUCERPROJECT>
